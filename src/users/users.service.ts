@@ -33,36 +33,6 @@ export class UsersService {
       email: 'edominiak4@google.es',
       role: 'ENGINEER',
     },
-    {
-      id: 6,
-      name: 'Laurent Swadlinge',
-      email: 'lswadlinge5@soup.io',
-      role: 'ENGINEER',
-    },
-    {
-      id: 7,
-      name: 'Gene Catherick',
-      email: 'gcatherick6@imageshack.us',
-      role: 'INTERN',
-    },
-    {
-      id: 8,
-      name: 'Gay Doiley',
-      email: 'gdoiley7@go.com',
-      role: 'ENGINEER',
-    },
-    {
-      id: 9,
-      name: 'Terrill Barus',
-      email: 'tbarus8@answers.com',
-      role: 'INTERN',
-    },
-    {
-      id: 10,
-      name: 'Todd Benka',
-      email: 'tbenka9@ihg.com',
-      role: 'INTERN',
-    },
   ];
   findAll(role?: 'INTERN' | 'ENGINEER' | 'ADMIN') {
     if (role) {
